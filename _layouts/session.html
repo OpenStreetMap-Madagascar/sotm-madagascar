@@ -1,0 +1,122 @@
+---
+layout: default
+color: no-logo program-page
+color: dark-nav
+---
+<div class='keyline-top pad8y program-page'>
+  <div class='limiter'>
+    <div class='pad4y col12 clearfix prose min-height'>
+      <h1>{{page.title}}</h1>
+      {% if page.subtitle %}<h2 class="abstract-subtitle">{{page.subtitle}}</h2>{% endif %}
+
+      <section class='col3'>
+        <p><span class='abstract-room'>Room: {{page.room}}</span></p>
+        <p>
+          <span class='abstract-time'>
+            <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg={{page.title}}&iso={{page.time_iso}}">{{page.time}}</a>
+          </span>
+          <br>
+          <span>
+            Duration: {{page.length}}&nbsp;minutes{% unless page.noQA %} (plus Q&amp;A){% endunless %}
+          </span>
+        </p>
+
+        {% if page.extra_time_1 %}
+        <hr class="space-right4">
+        {% if page.extra_room_1 %}
+        <p><span class='abstract-room'>Room: {{page.extra_room_1}}</span></p>
+        {% endif %}
+        <p>
+          <span class='abstract-time'>
+            <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg={{page.title}}&iso={{page.extra_time_1_iso}}">{{page.extra_time_1}}</a>
+          </span>
+          <br>
+          <span>
+            Duration: {{page.length}}&nbsp;minutes{% unless page.noQA %} (plus Q&amp;A){% endunless %}
+          </span>
+        </p>
+        {% endif %}
+
+        {% if page.extra_time_2 %}
+        <hr class="space-right4">
+        {% if page.extra_room_2 %}
+        <p><span class='abstract-room'>Room: {{page.extra_room_2}}</span></p>
+        {% endif %}
+        <p>
+          <span class='abstract-time'>
+            <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg={{page.title}}&iso={{page.extra_time_2_iso}}">{{page.extra_time_2}}</a>
+          </span>
+          <br>
+          <span>
+            Duration: {{page.length}}&nbsp;minutes{% unless page.noQA %} (plus Q&amp;A){% endunless %}
+          </span>
+        </p>
+        {% endif %}
+
+        {% unless page.recording or page.recordings %}
+        <hr class="space-right4">
+          <p><span class='abstract-no-recording'><img src="/img/novideo-dark.svg" class="noRecordingDark" height="25" alt="no recording" title="This session will not be recorded."> This event will not be recorded.</span></p>
+        {% endunless %}
+
+        <hr class="space-right4">
+
+        {% for r in page.resources %}
+        <p><span class='abstract-doi'><a href="{{r.url}}">{{r.description}}</a>{% if r.description == 'full abstract' %} (<a href="https://doi.org/{{page.doi}}">DOI</a>){% endif %}</p>
+        {% endfor %}
+
+        {% if page.resources[0] %}
+        <hr class="space-right4">
+        {% endif %}
+
+        {% if page.voc or page.youtube %}
+        <p>
+        {% endif %}
+
+        {% if page.voc %}<a href="{{ page.voc }}">video on media.ccc.de</a><br>{% endif %}
+        {% if page.youtube %}<a href="https://www.youtube.com/watch?v={{ page.youtube }}">video on YouTube</a><br>{% endif %}
+        {% if page.youtube_ES %}<a href="https://www.youtube.com/watch?v={{ page.youtube_ES }}">video on YouTube (La traducción española)</a><br>{% endif %}
+        {% if page.youtube_ID %}<a href="https://www.youtube.com/watch?v={{ page.youtube_ID }}">video on YouTube (Terjemahan bahasa Indonesia)</a><br>{% endif %}
+        {% if page.youtube_RU %}<a href="https://www.youtube.com/watch?v={{ page.youtube_RU }}">video on YouTube (Russian (русский) translation)</a><br>{% endif %}
+
+        {% if page.voc or page.youtube %}
+        </p><hr class="space-right4">
+        {% endif %}
+
+        <!--<p>
+          <small>Change time zone:<br>
+          <select id="city-select" size="1" onchange="updateTZ(this.value)" style="width:60%">
+            <option value="Europe/Rome">Italy</option>
+            <option value="UTC">UTC</option>
+          </select></small>
+        </p>
+        <hr class="space-right4">-->
+
+        <a href='/programme/#session_{{page.code}}'>Back to schedule</a>
+      </section>
+      <section class='col9'>
+        {% if page.affiliations == 'None' %}
+          <ul class='abstract-speaker'><li>{{page.speaker_names | join: '</li><li>' }}</li></ul>
+        {% elsif page.speaker_names.size == 1 %}
+        <ul class='abstract-speaker'><li>{{page.speaker_names[0]}} ({{page.affiliations}})</li></ul>
+        {% else %}
+        <ul class='abstract-speaker'><li>{{page.speaker_names | join: '</li><li>' }}</li><li>({{page.affiliations}})</li></ul>
+        {% endif %}
+
+        {% if page.recordings %}
+        <iframe src="{{ page.voc }}/oembed" frameborder="0" allowfullscreen style="width:100%; aspect-ratio: 16/9;" onload="this.style.height=(this.clientWidth*9/16)+'px';">
+          <video controls width="100%" poster="/img/video-previews/video-{{ page.code }}.jpeg" style="margin-bottom:2em">
+          {% for rec in page.recordings %}
+            <source src="{{ rec.recording_url }}" type="{{ rec.mime_type }}">
+          {% endfor %}
+          </video>
+        </iframe>
+        {% endif %}
+
+        {{content}}
+
+      </section>
+    </div>
+  </div>
+</div>
+
+<!--{% include _timezoneswitcher.html %}-->
