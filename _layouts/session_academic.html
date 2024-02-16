@@ -1,0 +1,80 @@
+---
+layout: default
+color: no-logo program-page
+color: dark-nav
+---
+<div class='keyline-top pad8y program-page'>
+  <div class='limiter'>
+    <div class='pad4y col12 clearfix prose min-height'>
+      <h1>{{page.title}}</h1>
+      {% if page.subtitle %}<h2 class="abstract-subtitle">{{page.subtitle}}</h2>{% endif %}
+
+      <section class='col3'>
+        <p><span class='abstract-room'>Room: {{page.room}}</span><br><span>Academic Track 🎓</span></p>
+        <p>
+          <span class='abstract-time'>
+            <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg={{page.title}}&iso={{page.time_iso}}">{{page.time}}</a>
+          </span>
+          <br>
+          <span>
+            Duration: {{page.length}}&nbsp;minutes (plus Q&amp;A)
+          </span>
+        </p>
+        {% unless page.recording or page.recordings %}
+          <p><span class='abstract-no-recording'><img src="/img/novideo-dark.svg" class="noRecordingDark" height="25" alt="no recording" title="This session will not be recorded."> This event will not be recorded.</span></p>
+        {% endunless %}
+
+        <hr class="space-right4">
+
+        {% if page.doi %}
+          <p><span class='abstract-doi'><a href="https://doi.org/{{page.doi}}">short paper - pdf</a></span></p><hr class="space-right4">
+        {% else %}
+          <p><span class='abstract-doi'><em>Abstract will be published in the conference proceedings</em></span></p><hr class="space-right4">
+        {% endif %}
+        {% for r in page.resources %}{% if r.description != 'full abstract' %}
+        <p><span class='abstract-doi'><a href="{{r.url}}">{{r.description}}</a></p>
+        {% endif %}{% endfor %}
+
+        {% if page.voc or page.youtube %}
+        <p>
+        {% endif %}
+
+        {% if page.voc %}<a href="{{ page.voc }}">video on media.ccc.de</a><br>{% endif %}
+        {% if page.youtube %}<a href="https://www.youtube.com/watch?v={{ page.youtube }}">video on YouTube</a><br>{% endif %}
+        {% if page.youtube_ES %}<a href="https://www.youtube.com/watch?v={{ page.youtube_ES }}">video on YouTube (La traducción española)</a><br>{% endif %}
+        {% if page.youtube_ID %}<a href="https://www.youtube.com/watch?v={{ page.youtube_ID }}">video on YouTube (Terjemahan bahasa Indonesia)</a><br>{% endif %}
+        {% if page.youtube_RU %}<a href="https://www.youtube.com/watch?v={{ page.youtube_RU }}">video on YouTube (Russian (русский) translation)</a><br>{% endif %}
+
+        {% if page.voc or page.youtube %}
+        </p><hr class="space-right4">
+        {% endif %}
+
+        <!--<hr class="space-right4">-->
+
+        <a href='/programme/#session_{{page.code}}'>Back to schedule</a>
+      </section>
+      <section class='col9'>
+          <ul class='abstract-speaker'>
+              {% for sp in page.speaker_names %}
+                  <li>{{ sp }}</li>
+              {% endfor %}
+          </ul>
+
+        {% if page.recordings %}
+        <iframe src="{{ page.voc }}/oembed" frameborder="0" allowfullscreen style="width:100%; aspect-ratio: 16/9;" onload="this.style.height=(this.clientWidth*9/16)+'px';">
+          <video controls width="100%" poster="/img/video-previews/video-{{ page.code }}.jpeg" style="margin-bottom:2em">
+          {% for rec in page.recordings %}
+            <source src="{{ rec.recording_url }}" type="{{ rec.mime_type }}">
+          {% endfor %}
+          </video>
+        </iframe>
+        {% endif %}
+
+        {{content}}
+
+      </section>
+    </div>
+  </div>
+</div>
+
+<!--{% include _timezoneswitcher.html %}-->
