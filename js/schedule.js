@@ -71,8 +71,8 @@ jQuery(document).ready(function ($) {
 
 			//detect click on the event and open the modal
 			$(this).on('click', 'a', function (event) {
-				event.preventDefault();
-				if (!self.animating) self.openModal($(this));
+				//event.preventDefault();
+				//if (!self.animating) self.openModal($(this));
 			});
 		});
 
@@ -297,6 +297,7 @@ jQuery(document).ready(function ($) {
 				BodyBgScaleX = (modalWidth - eventWidth);
 
 			setTimeout(function () {
+				
 				self.modal.css({
 					width: modalWidth + 'px',
 					height: modalHeight + 'px',
