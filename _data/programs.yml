@@ -1,0 +1,49 @@
+- day: Lundi
+  subcategories:
+    - start : '08:00'
+      end : '10:30'
+      event: event-1
+      name: "Abs Circui"
+      description: "<h1>Description du programe</h1> <br><h3>afaka mampiasa markown</h3>"
+    - start : '11:00'
+      end : '12:30'
+      event: event-2
+      name: "Rowing Workout"
+      description: "<h1>Description du programe</h1> <br><h3>afaka mampiasa markown</h3>"
+    - start : '14:00'
+      end : '15:15'
+      event: event-2
+      name: "event-3"
+      description: "<h1>Description du programe</h1> <br><h3>afaka mampiasa markown</h3>"
+
+- day: Mardi
+  subcategories:
+    - start : '10:00'
+      end : '11:00'
+      event: event-2
+      name: "Rowing Workout"
+      description: "<h1>2</h1> <br><h3>description 2</h3>"
+    - start : '11:30'
+      end : '13:00'
+      event: event-4
+      name: "Restorative Yoga"
+      description: "<h1>data</h1> <br><h3>description test</h3>"
+    - start : '13:30'
+      end : '15:00'
+      event: event-1
+      name: "Abs Circuit 2"
+      description: "<h1>data</h1> <br><h3>description test</h3>"
+    - start : '15:45'
+      end : '16:45'
+      event: event-3
+      name: "Yoga Level 1"
+      description: "<h1>data</h1> <br><h3>description test</h3>"
+
+- day: Mercredi
+  subcategories:
+
+- day: Jeudi
+  subcategories:
+
+- day: Vendredi
+  subcategories:

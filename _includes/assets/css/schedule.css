@@ -340,7 +340,7 @@ Main Components
   }
 
   .cd-schedule .events .events-group {
-    width: 14%;
+    width: 20%;
     float: left;
     border: 1px solid #EAEAEA;
     /* reset style */
@@ -406,7 +406,7 @@ Main Components
   }
 
   .cd-schedule .events .single-event a {
-    padding: 1.2em;
+    padding: .5em;
   }
 
   .cd-schedule .events .single-event:last-of-type {
@@ -438,18 +438,18 @@ Main Components
 .cd-schedule .event-date {
   display: block;
   color: white;
-  font-weight: bold;
+  /*font-weight: bold;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .cd-schedule .event-name {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
 }
 
 @media only screen and (min-width: 800px) {
   .cd-schedule .event-name {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -464,11 +464,11 @@ Main Components
 .cd-schedule .single-event[data-event="event-1"],
 .cd-schedule [data-event="event-1"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
-  background: #577F92;
+  background: #6f9961;
 }
 
 .cd-schedule .single-event[data-event="event-1"]:hover {
-  background: #618da1;
+  background: #577b4c;
 }
 
 .cd-schedule .single-event[data-event="event-2"],
