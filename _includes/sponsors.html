@@ -11,14 +11,14 @@
 		</div> <!-- row -->
 
 		{% for sponsor in site.data.sponsors %}
-			<h1 class="space-bottom2 center">{{ sponsor.logo }}</h1>
+			<h1 class="space-bottom2 center">{{ sponsor.type }}</h1>
 
 			<div class="row client-active">
-				{% for data in sponsor.type %}
+				{% for data in sponsor.subcategories %}
 				<div class="col-lg-3">
 					<div class="single-client">
-						<a target="_blank" href="{{ gold.link }}">
-							<img src="{{ gold.logo }}" alt="{{ gold.name }}">
+						<a target="_blank" href="{{ data.link }}">
+							<img src="{{ data.logo }}" alt="{{ data.name }}">
 						</a>
 					</div> <!-- single client -->
 				</div>
