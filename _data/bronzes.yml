@@ -1,0 +1,19 @@
+- name: Locana
+  link: "https://www.locana.com"
+  logo: "img/sponsors/locana.svg"
+
+- name: OsmAnd
+  link: https://osmand.net/
+  logo: "img/sponsors/osmand.svg"
+
+- name: Humanitarian OpenStreetMap Team
+  link: https://www.hotosm.org/
+  logo: 'img/sponsors/hotosm.svg'
+
+- name: Geofabrik
+  link: https://www.geofabrik.de
+  logo: 'img/sponsors/geofabrik.png'
+
+- name: Cyient
+  link: https://www.cyient.com/
+  logo: 'img/sponsors/cyient.png'

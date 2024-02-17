@@ -1,0 +1,19 @@
+- name: YouthMappers
+  link: "https://www.youthmappers.org"
+  logo: "img/sponsors/youthmappers.png"
+
+- name: YouthMappers
+  link: https://opensource.google
+  logo: "img/sponsors/google.svg"
+
+- name: Mapbox
+  link: https://www.mapbox.com/
+  logo: 'img/sponsors/mapbox.svg'
+
+- name: Gojek
+  link: https://www.snap.com/
+  logo: 'img/sponsors/snap.svg'
+
+- name: HERE
+  link: https://www.here.com
+  logo: 'img/sponsors/here.svg'

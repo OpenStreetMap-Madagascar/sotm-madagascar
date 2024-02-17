@@ -27,7 +27,7 @@
                       <div class="col-lg-6">
                           <div class="footer-address mt-40">
                               <h5 class="f-title">Contacts</h5>
-                              <a class="contact-link" href="mailto:{{ page.email }}">{{ page.email }}</a>
+                              <a class="contact-link" href="mailto:{{ site.email }}">{{ site.email }}</a>
                           </div> <!-- footer address -->
                           <br>
                           <img src="{{ " /assets/images/logo/sotm_2024-logo.png" | prepend: site.baseurl }}"
@@ -54,7 +54,7 @@
               <div class="row">
                   <div class="col-lg-12">
                       <div class="copyright text-center">
-                          <p class="text"> © 2024 <a href="https://www.madatlas.mg" rel="nofollow">MADATLAS</a>. All Rights Reserved</p>
+                          <p class="text"> Copyright &copy; {{ site.time | date: '%Y' }} <a href="https://www.madatlas.mg" rel="nofollow">MADATLAS</a>. All Rights Reserved</p>
                       </div> <!-- copyright -->
                   </div>
               </div> <!-- row -->
