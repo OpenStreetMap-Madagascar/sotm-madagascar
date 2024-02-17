@@ -1,0 +1,23 @@
+- name: nextbillion.ai
+  link: "https://nextbillion.ai"
+  logo: "img/sponsors/nextbillionai.png"
+
+- name: ESRI
+  link: https://nextbillion.ai
+  logo: "img/sponsors/esri.png"
+
+- name: TomTom
+  link: https://nextbillion.ai
+  logo: 'img/sponsors/tomtom.svg'
+
+- name: Grab
+  link: https://nextbillion.ai
+  logo: 'img/sponsors/grab.png'
+
+- name: Bing Maps/Microsoft
+  link: https://nextbillion.ai
+  logo: 'img/sponsors/microsoft.png'
+
+- name: Meta
+  link: https://nextbillion.ai
+  logo: 'img/sponsors/meta.svg'
