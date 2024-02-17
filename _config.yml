@@ -1,8 +1,8 @@
 # Site settings
-title: State of the Map 2022
+title: State of the Map 2024
 email: sotm@openstreetmap.org
-description: "The global OpenStreetMap conference. August 19 - 21, 2022 in Florence, Italy & online."
-url: "http://2022.stateofthemap.org" # the base hostname & protocol for your site
+description: "The global OpenStreetMap conference. Avril 29 - 30, 2022 in Fianarantsoa, Madagascar & online."
+url: "http://2024.stateofthemap.org" # the base hostname & protocol for your site
 twitter_username: state
 github_username:  jekyll
 
