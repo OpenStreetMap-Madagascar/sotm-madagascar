@@ -10,45 +10,21 @@
 			</div>
 		</div> <!-- row -->
 
-		<h1 class="space-bottom2 center">Gold</h1>
+		{% for sponsor in site.data.sponsors %}
+			<h1 class="space-bottom2 center">{{ sponsor.logo }}</h1>
 
-		<div class="row client-active">
-			{% for gold in site.data.golds %}
-			<div class="col-lg-3">
-				<div class="single-client">
-					<a target="_blank" href="{{ gold.link }}">
-						<img src="{{ gold.logo }}" alt="{{ gold.name }}">
-					</a>
-				</div> <!-- single client -->
-			</div>
-			{% endfor %}
-		</div> <!-- row -->
-		<br><br>
-		<h1 class="space-bottom2 center">Silver</h1>
-		<div class="row client-active">
-			{% for silver in site.data.silvers %}
-			<div class="col-lg-3">
-				<div class="single-client">
-					<a target="_blank" href="{{ silver.link }}">
-						<img src="{{ silver.logo }}" alt="{{ silver.name }}">
-					</a>
-				</div> <!-- single client -->
-			</div>
-			{% endfor %}
-		</div> 
-		<br><br>
-		<h1 class="space-bottom2 center">Bronze</h1>
-		<div class="row client-active">
-			{% for bronze in site.data.bronzes %}
-			<div class="col-lg-3">
-				<div class="single-client">
-					<a target="_blank" href="{{ bronze.link }}">
-						<img src="{{ bronze.logo }}" alt="{{ bronze.name }}">
-					</a>
-				</div> <!-- single client -->
-			</div>
-			{% endfor %}
-		</div> 
-		<!-- row -->
+			<div class="row client-active">
+				{% for data in sponsor.type %}
+				<div class="col-lg-3">
+					<div class="single-client">
+						<a target="_blank" href="{{ gold.link }}">
+							<img src="{{ gold.logo }}" alt="{{ gold.name }}">
+						</a>
+					</div> <!-- single client -->
+				</div>
+				{% endfor %}
+			</div> <!-- row -->
+			<br><br>
+		{% endfor %}
 	</div> <!-- container -->
 </div>
