@@ -173,12 +173,12 @@ p {
 
 /*===== All Section Title Style =====*/
 .section-title .title {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 @media (max-width: 767px) {
   .section-title .title {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -1763,13 +1763,13 @@ p {
 }
 
 .footer-subscribe .subscribe-title {
-  font-size: 50px;
+  font-size: 40px;
   color: #fff;
 }
 
 @media (max-width: 767px) {
   .footer-subscribe .subscribe-title {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
