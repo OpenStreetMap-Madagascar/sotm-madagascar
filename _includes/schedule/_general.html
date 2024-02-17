@@ -28,100 +28,25 @@
 
     <div class="events">
         <ul class="wrap">
+
+            {% for program in site.data.programs %}
             <li class="events-group">
-                <div class="top-info"><span>Lundi</span></div>
+                <div class="top-info"><span>{{ program.day }}</span></div>
                 <ul>
-                    <li class="single-event" data-start="08:00" data-end="10:30" data-content="event-abs-circuit"
-                        data-event="event-1">
+                    {% for data in program.subcategories %}
+                    <li class="single-event" data-start="{{ data.start }}" data-end="{{ data.end }}" data-content="{{ data.color }}"
+                        data-event="{{ data.event }}">
                         <a href="#0">
-                            <em class="event-name">Abs Circuit</em>
-                            <em class="event-info" style="display: none;"><h1>Description du programe</h1> <br> <h3>afaka mampiasa markown</h3></em>
-                    </a>
+                            <em class="event-name">{{ data.name }}</em>
+                            <em class="event-info" style="display: none;">
+                                {{ data.description }}
+                            </em>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
             </li>
-
-            <li class="single-event" data-start="11:00" data-end="12:30" data-content="event-rowing-workout"
-                data-event="event-2">
-                <a href="#0">
-                    <em class="event-name">Rowing Workout</em>
-                </a>
-            </li>
-
-            <li class="single-event" data-start="14:00" data-end="15:15" data-content="event-yoga-1"
-                data-event="event-3">
-                <a href="#0">
-                    <em class="event-name">Yoga Level 1</em>
-                </a>
-            </li>
-        </ul>
-        </li>
-
-        <li class="events-group">
-            <div class="top-info"><span>Mardi</span></div>
-
-            <ul>
-                <li class="single-event" data-start="10:00" data-end="11:00" data-content="event-rowing-workout"
-                    data-event="event-2">
-                    <a href="#0">
-                        <em class="event-name">Rowing Workout</em>
-                    </a>
-                </li>
-
-                <li class="single-event" data-start="11:30" data-end="13:00" data-content="event-restorative-yoga"
-                    data-event="event-4">
-                    <a href="#0">
-                        <em class="event-name">Restorative Yoga</em>
-                    </a>
-                </li>
-
-                <li class="single-event" data-start="13:30" data-end="15:00" data-content="event-abs-circuit"
-                    data-event="event-1">
-                    <a href="#0">
-                        <em class="event-name">Abs Circuit 2</em>
-                    </a>
-                </li>
-
-                <li class="single-event" data-start="15:45" data-end="16:45" data-content="event-yoga-1"
-                    data-event="event-3">
-                    <a href="#0">
-                        <em class="event-name">Yoga Level 1</em>
-                    </a>
-                </li>
-                <li class="single-event" data-start="16:45" data-end="18:00" data-content="event-yoga-1"
-                    data-event="event-3">
-                    <a href="#0">
-                        <em class="event-name">Yoga Level 1</em>
-                    </a>
-                </li>
-            </ul>
-        </li>
-
-        <li class="events-group">
-            <div class="top-info"><span>Mercredi</span></div>
-
-        </li>
-
-        <li class="events-group">
-            <div class="top-info"><span>Jeudi</span></div>
-
-        </li>
-
-        <li class="events-group">
-            <div class="top-info"><span>Vendredi</span></div>
-
-        </li>
-        <!--        -->
-        <li class="events-group">
-            <div class="top-info"><span>Samedi</span></div>
-           
-        </li>
-        <!--        -->
-
-        <!--        -->
-        <li class="events-group">
-            <div class="top-info"><span>Dimanche</span></div>
-            
-        </li>
-        <!--        -->
+            {% endfor %}
         </ul>
     </div>
 
