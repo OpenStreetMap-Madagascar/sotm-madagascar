@@ -1766,7 +1766,12 @@ p {
   left: 0;
   background: -webkit-linear-gradient(left, rgba(16, 43, 175, 0.85) 0%, rgba(22, 100, 255, 0.85) 100%);
   background: -o-linear-gradient(left, rgba(16, 43, 175, 0.85) 0%, rgba(22, 100, 255, 0.85) 100%);
-  background: linear-gradient(to right, rgb(27 88 76) 0%, rgb(52 183 157) 100%);
+  background: linear-gradient(to right, rgb(11 35 30 / 82%) 0%, rgb(29 108 93 / 83%) 100%);
+}
+
+
+#home {
+  z-index: 0;
 }
 
 .footer-subscribe .subscribe-title {
