@@ -812,7 +812,7 @@ p {
 
 .header-content .sub-title {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 200;
   /*color: #fff;*/
   color: #1b273d;
   text-transform: uppercase;
@@ -1108,6 +1108,13 @@ p {
   .event-tab .tab-content .event-content .single-event .event-image img {
     width: 100%;
   }
+}
+
+.space-bottom2 {
+  font-size: 30px;
+  text-align-last: center;
+  padding: 20px;
+  color: #6f9961;
 }
 
 .event-tab .tab-content .event-content .single-event .event-content {
