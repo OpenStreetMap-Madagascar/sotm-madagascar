@@ -1,0 +1,69 @@
+-type: Gold
+  subcategories:
+    - name: nextbillion.ai
+    link: "https://nextbillion.ai"
+    logo: "img/sponsors/nextbillionai.png"
+
+    - name: ESRI
+      link: https://nextbillion.ai
+      logo: "img/sponsors/esri.png"
+
+    - name: TomTom
+      link: https://nextbillion.ai
+      logo: 'img/sponsors/tomtom.svg'
+
+    - name: Grab
+      link: https://nextbillion.ai
+      logo: 'img/sponsors/grab.png'
+
+    - name: Bing Maps/Microsoft
+      link: https://nextbillion.ai
+      logo: 'img/sponsors/microsoft.png'
+
+    - name: Meta
+      link: https://nextbillion.ai
+      logo: 'img/sponsors/meta.svg'
+      
+-type: Sylver
+  subcategories:
+    - name: YouthMappers
+    link: "https://www.youthmappers.org"
+    logo: "img/sponsors/youthmappers.png"
+
+    - name: YouthMappers
+      link: https://opensource.google
+      logo: "img/sponsors/google.svg"
+
+    - name: Mapbox
+      link: https://www.mapbox.com/
+      logo: 'img/sponsors/mapbox.svg'
+
+    - name: Gojek
+      link: https://www.snap.com/
+      logo: 'img/sponsors/snap.svg'
+
+    - name: HERE
+      link: https://www.here.com
+      logo: 'img/sponsors/here.svg'
+
+-type: Bronze
+  subcategories:
+    - name: Locana
+    link: "https://www.locana.com"
+    logo: "img/sponsors/locana.svg"
+
+    - name: OsmAnd
+      link: https://osmand.net/
+      logo: "img/sponsors/osmand.svg"
+
+    - name: Humanitarian OpenStreetMap Team
+      link: https://www.hotosm.org/
+      logo: 'img/sponsors/hotosm.svg'
+
+    - name: Geofabrik
+      link: https://www.geofabrik.de
+      logo: 'img/sponsors/geofabrik.png'
+
+    - name: Cyient
+      link: https://www.cyient.com/
+      logo: 'img/sponsors/cyient.png'
