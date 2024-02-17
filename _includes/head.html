@@ -1,38 +1,45 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>
-      {% if page.title %}
-        {{ page.title }} - {{ site.title }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/images/icons/apple-touch-icon.png" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/images/icons/favicon-32x32.png" | prepend: site.baseurl }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/images/icons/favicon-16x16.png" | prepend: site.baseurl }}">
-    <link rel="manifest" href="{{ "/assets/images/icons/site.webmanifest" | prepend: site.baseurl }}">
-    <link rel="mask-icon" href="{{ "/assets/images/icons/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#e23e36">
-    <link rel="shortcut icon" href="{{ "/assets/images/icons/favicon.ico" | prepend: site.baseurl }}">
-    <meta name="msapplication-TileColor" content="#ffd97e">
-    <meta name="msapplication-config" content="{{ "/assets/images/icons/browserconfig.xml" | prepend: site.baseurl }}">
-    <meta name="theme-color" content="#ffd97e">
-    <meta property="og:image" content="{{ "/assets/images/logo/sotm_2024-logo.png" | prepend: site.baseurl }}">
-    <meta property="og:image:height" content="300">
-    <meta property="og:image:width" content="300">
-    {% if page.layout == "session" or page.layout == "session_academic" %}
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description" content="Talk at {{ site.title }}. {{ site.description }}">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+    {% if page.title %}
+    {{ page.title }} - {{ site.title }}
     {% else %}
-    <meta property="og:title" content="{{ site.title }}">
-    <meta property="og:description" content="{{ site.description }}">
+    {{ site.title }}
     {% endif %}
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}">
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ " /assets/images/icons/apple-touch-icon.png" | prepend:
+    site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ " /assets/images/icons/favicon-32x32.png" | prepend:
+    site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ " /assets/images/icons/favicon-16x16.png" | prepend:
+    site.baseurl }}">
+  <link rel="manifest" href="{{ " /assets/images/icons/site.webmanifest" | prepend: site.baseurl }}">
+  <link rel="mask-icon" href="{{ " /assets/images/icons/safari-pinned-tab.svg" | prepend: site.baseurl }}"
+    color="#e23e36">
+  <link rel="shortcut icon" href="{{ " /assets/images/icons/favicon.ico" | prepend: site.baseurl }}">
+  <meta name="msapplication-TileColor" content="#ffd97e">
+  <meta name="msapplication-config" content="{{ " /assets/images/icons/browserconfig.xml" | prepend: site.baseurl }}">
+  <meta name="theme-color" content="#ffd97e">
+  <meta property="og:image" content="{{ " /assets/images/logo/sotm_2024-logo.png" | prepend: site.baseurl }}">
+  <meta property="og:image:height" content="300">
+  <meta property="og:image:width" content="300">
+  {% if page.layout == "session" or page.layout == "session_academic" %}
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="Talk at {{ site.title }}. {{ site.description }}">
+  {% else %}
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  {% endif %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+  <link rel="stylesheet" href="{{ " /style.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N' }}">
 
 </head>
