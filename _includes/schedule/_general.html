@@ -2,7 +2,6 @@
 <div class="cd-schedule loading">
     <div class="timeline">
         <ul>
-            <li><span>08:00</span></li>
             <li><span>08:30</span></li>
             <li><span>09:00</span></li>
             <li><span>09:30</span></li>
@@ -22,7 +21,6 @@
             <li><span>16:30</span></li>
             <li><span>17:00</span></li>
             <li><span>17:30</span></li>
-            <li><span>18:00</span></li>
         </ul>
     </div> <!-- .timeline -->
 
@@ -34,12 +32,14 @@
                 <div class="top-info"><span>{{ program.day }}</span></div>
                 <ul>
                     {% for data in program.subcategories %}
-                    <li class="single-event" data-start="{{ data.start }}" data-end="{{ data.end }}" data-content="{{ data.color }}"
-                        data-event="{{ data.event }}">
-                        <a href="#0">
+                    <li class="single-event" data-start="{{ data.start }}" data-end="{{ data.end }}"
+                        data-content="{{ data.color }}" data-event="{{ data.event }}">
+                        <a href="{{ data.description }}">
                             <em class="event-name">{{ data.name }}</em>
                             <em class="event-info" style="display: none;">
-                                {{ data.description }}
+                                <iframe id="inlineFrameExample" title="description frame" width="100%" height="100%"
+                                    src="{{ data.description }}">
+                                </iframe>
                             </em>
                         </a>
                     </li>

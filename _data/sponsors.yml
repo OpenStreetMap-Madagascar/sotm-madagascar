@@ -1,8 +1,8 @@
--type: Gold
+- type: Gold
   subcategories:
     - name: nextbillion.ai
-    link: "https://nextbillion.ai"
-    logo: "img/sponsors/nextbillionai.png"
+      link: "https://nextbillion.ai"
+      logo: "img/sponsors/nextbillionai.png"
 
     - name: ESRI
       link: https://nextbillion.ai
@@ -23,12 +23,12 @@
     - name: Meta
       link: https://nextbillion.ai
       logo: 'img/sponsors/meta.svg'
-      
--type: Sylver
+
+- type: Sylver
   subcategories:
     - name: YouthMappers
-    link: "https://www.youthmappers.org"
-    logo: "img/sponsors/youthmappers.png"
+      link: "https://www.youthmappers.org"
+      logo: "img/sponsors/youthmappers.png"
 
     - name: YouthMappers
       link: https://opensource.google
@@ -46,11 +46,11 @@
       link: https://www.here.com
       logo: 'img/sponsors/here.svg'
 
--type: Bronze
+- type: Bronze
   subcategories:
     - name: Locana
-    link: "https://www.locana.com"
-    logo: "img/sponsors/locana.svg"
+      link: "https://www.locana.com"
+      logo: "img/sponsors/locana.svg"
 
     - name: OsmAnd
       link: https://osmand.net/
