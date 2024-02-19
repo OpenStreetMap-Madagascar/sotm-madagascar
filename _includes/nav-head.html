@@ -33,22 +33,22 @@
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="/#home">Acceuil</a>
+                                    <a class="page-scroll" href="{{ site.baseurl }}/#home">Acceuil</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="/#about">Apropos</a>
+                                    <a class="page-scroll" href="{{ site.baseurl }}/#about">Apropos</a>
                                 </li>
                                 <li class="nav-item {% if page.url contains '/programme' %}active{% endif %}">
                                     <a class="" href="{{site.baseurl}}/programme">Programmes</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="/#sponsor">Sponsors</a>
+                                    <a class="page-scroll" href="{{ site.baseurl }}/#sponsor">Sponsors</a>
                                 </li>
                             </ul>
                         </div>
 
                         <div class="navbar-btn d-none d-sm-inline-block">
-                            <a class="main-btn page-scroll" href="/#footer"><i class="lni lni-phone"></i> Contact</a>
+                            <a class="main-btn page-scroll" href="{{ site.baseurl }}/#footer"><i class="lni lni-phone"></i> Contact</a>
                         </div>
                     </nav> <!-- navbar -->
                 </div>
@@ -63,7 +63,7 @@
                 <div class="col-lg-10">
                     <div class="header-content text-center">
                         <h2 class="header-title wow fadeInLeft" data-wow-duration="1s">{{page.title}}</h2>
-                        <h3 class="sub-title wow fadeInLeft" data-wow-duration="1.5s"><a href="/">Acceuil</a> {{page.url}}</h3>
+                        <h3 class="sub-title wow fadeInLeft" data-wow-duration="1.5s"><a href="{{ site.baseurl }}">Acceuil</a> {{page.url}}</h3>
                     </div> <!-- header content -->
                 </div>
             </div> <!-- row -->
