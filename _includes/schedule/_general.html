@@ -34,7 +34,7 @@
                     {% for data in program.subcategories %}
                     <li class="single-event" data-start="{{ data.start }}" data-end="{{ data.end }}"
                         data-content="{{ data.color }}" data-event="{{ data.event }}">
-                        <a href="{{ "/{{ data.description }}" | prepend:site.baseurl }}>
+                        <a href={{ site.baseurl }}{{data.description }}>
                             <em class="event-name">{{ data.name }}</em>
                             <em class="event-info" style="display: none;">
                                 <iframe id="inlineFrameExample" title="description frame" width="100%" height="100%"
