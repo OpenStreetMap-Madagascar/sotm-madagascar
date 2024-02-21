@@ -1,4 +1,4 @@
-# State of the Map 2024 Website
+# State of the Map Madagascar 2024 Website
 
 This repo is the Jekyll configuration, styles and content powering openstreetmap-madagascar.github.io/sotm-madagascar/ and https://2024.stateofthemap.org,
 
