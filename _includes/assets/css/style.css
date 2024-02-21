@@ -474,7 +474,7 @@ p {
 
 /*===== Navbar =====*/
 .navbar-area {
-  padding: 10px 0;
+  /*padding: 10px 0;*/
   position: absolute;
   top: 0;
   left: 0;
