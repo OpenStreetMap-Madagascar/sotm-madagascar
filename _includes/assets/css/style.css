@@ -721,7 +721,7 @@ p {
 }
 
 .header-countdown .single-count-content .count {
-  font-size: 72px;
+  font-size: 45px;
   font-weight: 600;
   line-height: 60px;
 }
@@ -741,9 +741,9 @@ p {
 }
 
 .header-countdown .single-count-content .text {
-  font-size: 20px;
+  /*font-size: 20px;
   font-weight: 600;
-  margin-top: 10px;
+  margin-top: 10px;*/
 }
 
 @media (max-width: 767px) {
