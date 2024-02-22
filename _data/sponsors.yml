@@ -12,15 +12,16 @@
       link: "https://openstreetmap.mg"
       logo: 'img/sponsors/sotm.jpg'
 
-- type: Sponsors
+- type: Partenaires
   subcategories:
-    - name: AFD
-      link: "https://www.afd.fr"
-      logo: "img/sponsors/AFD.png"
 
-    - name: IRD
-      link: "https://en.ird.fr/"
-      logo: "img/sponsors/ird.png"
+    #- name: AFD
+    #  link: "https://www.afd.fr"
+    #  logo: "img/sponsors/AFD.png"
+
+    #- name: IRD
+    # link: "https://en.ird.fr/"
+    # logo: "img/sponsors/ird.png"
 
     - name: Université Gustave Eiffel
       link: "https://www.univ-gustave-eiffel.fr/"
@@ -30,14 +31,14 @@
       link: "https://www.u-bordeaux-montaigne.fr/"
       logo: 'img/sponsors/BOR.png'
 
-
-- type: Partenaires
-  subcategories:
     - name: GéoAr'tech
       link: "http://geoar-tech.com"
       logo: 'img/sponsors/geoart.jpg'
 
-    - name: cartOng
-      link: "https://www.cartong.org"
-      logo: "img/sponsors/CARTong.png"
+
+#- type: Partenaires
+#  subcategories:
+ #   - name: cartOng
+  #    link: "https://www.cartong.org"
+   #   logo: "img/sponsors/CARTong.png"
 
