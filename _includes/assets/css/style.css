@@ -652,7 +652,15 @@ p {
   .navbar-area .navbar .navbar-btn {
     position: absolute;
     right: 70px;
-    top: 7px;
+    /*top: 7px;*/
+  }
+
+  .logo-osm-text{
+    max-height: 130px!important;
+  }
+
+  .logo-sotm-header{
+    max-height: 130px!important;
   }
 }
 
@@ -660,7 +668,14 @@ p {
   .navbar-area .navbar .navbar-btn {
     position: absolute;
     right: 60px;
-    top: 7px;
+    /*top: 7px;*/
+  }
+  .logo-osm-text{
+    max-height: 80px!important;
+  }
+
+  .logo-sotm-header{
+    max-height: 80px!important;
   }
 }
 
