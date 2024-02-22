@@ -5,7 +5,7 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-8">
 				<div class="section-title text-center pb-50">
-					<h2 class="title">Nos sponsors</h2>
+					<h2 class="title">Organisé par</h2>
 				</div>
 			</div>
 		</div> <!-- row -->
@@ -13,7 +13,7 @@
 		{% for sponsor in site.data.sponsors %}
 			<h1 class="space-bottom2 center">{{ sponsor.type }}</h1>
 
-			<div class="row client-active">
+			<div class="row">
 				{% for data in sponsor.subcategories %}
 				<div class="col-lg-3">
 					<div class="single-client">

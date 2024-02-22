@@ -1,69 +1,50 @@
-- type: Gold
+- type: 
   subcategories:
-    - name: nextbillion.ai
-      link: "https://nextbillion.ai"
-      logo: "img/sponsors/nextbillionai.png"
+    - name: Université de Fianarantsoa
+      link: "https://univ-fianarantsoa.mg"
+      logo: "img/sponsors/universitFianar.jpeg"
 
-    - name: ESRI
-      link: https://nextbillion.ai
-      logo: "img/sponsors/esri.png"
+    - name: Madatlas
+      link: "https://www.madatlas.mg/"
+      logo: 'img/sponsors/madatlas.jpg'
 
-    - name: TomTom
-      link: https://nextbillion.ai
-      logo: 'img/sponsors/tomtom.svg'
+    - name: SotM
+      link: "https://openstreetmap.mg"
+      logo: 'img/sponsors/sotm.jpg'
 
-    - name: Grab
-      link: https://nextbillion.ai
-      logo: 'img/sponsors/grab.png'
-
-    - name: Bing Maps/Microsoft
-      link: https://nextbillion.ai
-      logo: 'img/sponsors/microsoft.png'
-
-    - name: Meta
-      link: https://nextbillion.ai
-      logo: 'img/sponsors/meta.svg'
-
-- type: Sylver
+- type: Sponsors
   subcategories:
-    - name: YouthMappers
-      link: "https://www.youthmappers.org"
-      logo: "img/sponsors/youthmappers.png"
+    - name: AFD
+      link: "https://www.afd.fr"
+      logo: "img/sponsors/AFD.png"
 
-    - name: YouthMappers
-      link: https://opensource.google
-      logo: "img/sponsors/google.svg"
+    - name: IRD
+      link: "https://en.ird.fr/"
+      logo: "img/sponsors/ird.png"
 
-    - name: Mapbox
-      link: https://www.mapbox.com/
-      logo: 'img/sponsors/mapbox.svg'
+    - name: Université Gustave Eiffel
+      link: "https://www.univ-gustave-eiffel.fr/"
+      logo: 'img/sponsors/UNIVf.png'
 
-    - name: Gojek
-      link: https://www.snap.com/
-      logo: 'img/sponsors/snap.svg'
+    - name: Université Bordeaux Montagne
+      link: "https://www.u-bordeaux-montaigne.fr/"
+      logo: 'img/sponsors/BOR.png'
 
-    - name: HERE
-      link: https://www.here.com
-      logo: 'img/sponsors/here.svg'
+    - name: GéoAr'tech
+      link: "http://geoar-tech.com"
+      logo: 'img/sponsors/geoart.jpg'
 
-- type: Bronze
+
+- type: Partenaires
   subcategories:
-    - name: Locana
-      link: "https://www.locana.com"
-      logo: "img/sponsors/locana.svg"
+    - name: Pivot
+      link: "https://www.pivotworks.org/fr"
+      logo: "img/sponsors/pivot.png"
 
-    - name: OsmAnd
-      link: https://osmand.net/
-      logo: "img/sponsors/osmand.svg"
+    - name: cartOng
+      link: "https://www.cartong.org"
+      logo: "img/sponsors/CARTong.png"
 
-    - name: Humanitarian OpenStreetMap Team
-      link: https://www.hotosm.org/
-      logo: 'img/sponsors/hotosm.svg'
-
-    - name: Geofabrik
-      link: https://www.geofabrik.de
-      logo: 'img/sponsors/geofabrik.png'
-
-    - name: Cyient
-      link: https://www.cyient.com/
-      logo: 'img/sponsors/cyient.png'
+    - name: Nouvelle Aquitaine
+      link: "https://www.nouvelle-aquitaine-tourisme.com/"
+      logo: 'img/sponsors/nouvAquit.png'
