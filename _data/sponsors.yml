@@ -19,9 +19,9 @@
     #  link: "https://www.afd.fr"
     #  logo: "img/sponsors/AFD.png"
 
-    #- name: IRD
-    # link: "https://en.ird.fr/"
-    # logo: "img/sponsors/ird.png"
+    - name: IRD
+     link: "https://en.ird.fr/"
+     logo: "img/sponsors/ird.png"
 
     - name: Université Gustave Eiffel
       link: "https://www.univ-gustave-eiffel.fr/"
