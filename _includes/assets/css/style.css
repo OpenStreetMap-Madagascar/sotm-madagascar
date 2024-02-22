@@ -705,7 +705,7 @@ p {
   height: 100%;
   background: -webkit-linear-gradient(top, rgb(16 57 175 / 47%) 60%, rgb(22 94 246 / 92%) 100%);
   background: -o-linear-gradient(top, rgb(16 57 175 / 47%) 60%, rgb(22 94 246 / 92%) 100%);
-  background: linear-gradient(to right, rgb(27 88 77 / 8%) 0%, rgb(27 88 77 / 22%) 100%);
+  background: linear-gradient(to bottom, rgb(255 255 255 / 80%) 0%, rgb(111 153 97 / 78%) 100%);
 }
 
 .header-countdown .single-count-content {
@@ -767,22 +767,22 @@ p {
 
 .header-countdown .single-count-content.count-color-1 .count,
 .header-countdown .single-count-content.count-color-1 .text {
-  color: #6f9961a0;
+  color: #1b2719b6;
 }
 
 .header-countdown .single-count-content.count-color-2 .count,
 .header-countdown .single-count-content.count-color-2 .text {
-  color: #6f9961d0;
+  color: #293d23d2;
 }
 
 .header-countdown .single-count-content.count-color-3 .count,
 .header-countdown .single-count-content.count-color-3 .text {
-  color: #6f9961e3;
+  color: #0d120cd2;
 }
 
 .header-countdown .single-count-content.count-color-4 .count,
 .header-countdown .single-count-content.count-color-4 .text {
-  color: #6f9961;
+  color: #000000;
 }
 
 .header-content {
