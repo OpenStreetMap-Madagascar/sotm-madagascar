@@ -16,7 +16,7 @@ recording: True
 
 We would like to share our feedback on facilitating OSM participatory mapping workshops for climate change adaptation projects with OSM local communities 
 Since 2015, CartONG has been expanding its work into the domain of participatory mapping, first by partnering with the international Missing Maps project, and then by working to develop a wider set of tools and methodologies. 
-Over the last 12 months, we had the opportunity to support two climate change adaptation projects, one in Tajikistan for the German Corporation for International Cooperation (GIZ) and the other in Madagascar in the Morombe region for Secours Islamique France.
+Over the last 12 months, we had the opportunity to support two climate change adaptation projects, one in Tajikistan for the German Corporation for International Cooperation (GIZ) and the other in Madagasikara in the Morombe region for Secours Islamique France.
 
 <hr>
 
