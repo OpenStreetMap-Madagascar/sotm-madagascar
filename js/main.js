@@ -81,7 +81,7 @@ $(function () {
     time: 2000
   });
 
-
+/*
   $('.client-active').slick({
     dots: false,
     arrows: false,
@@ -116,7 +116,7 @@ $(function () {
         }
       }
     ]
-  });
+  });*/
 
 
   //===== Back to top
