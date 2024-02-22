@@ -472,6 +472,11 @@ p {
   }
 }
 
+.center-item{
+  align-items: center;
+  justify-content: center;
+}
+  
 /*===== Navbar =====*/
 .navbar-area {
   /*padding: 10px 0;*/

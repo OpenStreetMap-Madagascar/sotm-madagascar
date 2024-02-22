@@ -30,21 +30,14 @@
       link: "https://www.u-bordeaux-montaigne.fr/"
       logo: 'img/sponsors/BOR.png'
 
-    - name: GéoAr'tech
-      link: "http://geoar-tech.com"
-      logo: 'img/sponsors/geoart.jpg'
-
 
 - type: Partenaires
   subcategories:
-    - name: Pivot
-      link: "https://www.pivotworks.org/fr"
-      logo: "img/sponsors/pivot.png"
+    - name: GéoAr'tech
+      link: "http://geoar-tech.com"
+      logo: 'img/sponsors/geoart.jpg'
 
     - name: cartOng
       link: "https://www.cartong.org"
       logo: "img/sponsors/CARTong.png"
 
-    - name: Nouvelle Aquitaine
-      link: "https://www.nouvelle-aquitaine-tourisme.com/"
-      logo: 'img/sponsors/nouvAquit.png'
