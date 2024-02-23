@@ -743,7 +743,7 @@ p {
   height: 100%;
   background: -webkit-linear-gradient(top, rgb(16 57 175 / 47%) 60%, rgb(22 94 246 / 92%) 100%);
   background: -o-linear-gradient(top, rgb(16 57 175 / 47%) 60%, rgb(22 94 246 / 92%) 100%);
-  background: linear-gradient(to bottom, rgb(255 255 255) 0%, rgb(232 255 234 / 81%) 100%);
+  background: linear-gradient(to bottom, rgb(255 255 255 / 85%) 0%, rgb(244 255 245 / 81%) 100%);
 }
 
 .header-content strong {
