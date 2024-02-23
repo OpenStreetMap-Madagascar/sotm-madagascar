@@ -180,7 +180,6 @@ p {
 .organisateurs-row .organisateurs-green {
   height: 390px;
   text-align: -webkit-center;
-  background: url(/assets/images/landing-background.png), linear-gradient(to right, rgb(29 103 88 / 79%) 0%, rgb(29 108 93) 100%);
   border-radius: 10px;
   align-items: center !important;
   color: #ffffff;
