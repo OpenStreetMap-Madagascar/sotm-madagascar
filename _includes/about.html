@@ -18,12 +18,48 @@
             évènement vise à regrouper pendant 2 jours, les 29 et 30 avril les contributrices et contributeurs,
             utilisateurs, représentants de collectivités, d'entreprises, chercheurs mais aussi toute personne curieuse
             de découvrir cette « carte libre du monde » que représente OpenStreetMap. <br>
-            Les State of the Map sont des occasions de se tenir informé, se former, découvrir l'écosystème et les multiples applications -existantes ou à imaginer- autour d'OpenStreetMap.
+            Les State of the Map sont des occasions de se tenir informé, se former, découvrir l'écosystème et les
+            multiples applications -existantes ou à imaginer- autour d'OpenStreetMap.
             Nous vous y attendons nombreuses et nombreux.
           </p>
         </div> <!-- about content -->
       </div>
     </div> <!-- row -->
+
+    <div class="pt-100">
+      <div class="row organisateurs-row">
+        <div class="col-lg-3 organisateurs-green">
+            <div style="align-items: center!important;" class="mt-30 mb-20 pb-20">
+              <h3>Organisateurs</h3>
+              <p class="widget mb-20 mt-20"></p>
+              <p class="center mt-20">Cette manifestation est
+                co-organisée par l'association OpenStreetMap Madagascar et le projet Madatlas
+              </p>
+            </div>
+        </div>
+        <div class="col-lg-9">
+
+          <div class="mt-5">
+            {% for sponsor in site.data.organisateurs %}
+            <div class="row center-item">
+              {% for data in sponsor.subcategories %}
+              <div class="col-lg-3">
+                <div class="single-client">
+                  <a target="_blank" href="{{ data.link }}">
+                    <img src="{{ data.logo }}" style="{{ sponsor.type }}" alt="{{ data.name }}">
+                  </a>
+                </div> <!-- single client -->
+              </div>
+              {% endfor %}
+            </div> <!-- row -->
+            <br><br>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </div> <!-- container -->
 </section>
 
@@ -69,7 +105,8 @@
         </div> <!-- single features -->
       </div>
     </div> <!-- row -->
-    <a class="main-btn page-scroll" style="float: right;" href="{{site.baseurl}}/programme" rel="nofollow">Voir le Programme ></a></a>
+    <a class="main-btn page-scroll" style="float: right;" href="{{site.baseurl}}/programme" rel="nofollow">Voir le
+      Programme ></a></a>
   </div> <!-- container -->
 </section>
 

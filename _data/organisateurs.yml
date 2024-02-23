@@ -1,0 +1,30 @@
+- type: 'min-height: 160px;'
+  subcategories:
+    - name: Université de Fianarantsoa
+      link: "https://univ-fianarantsoa.mg"
+      logo: "img/sponsors/universitFianar.jpeg"
+
+    - name: Madatlas
+      link: "https://www.madatlas.mg/"
+      logo: 'img/sponsors/madatlas.jpg'
+
+    - name: SotM
+      link: "https://openstreetmap.mg"
+      logo: 'img/sponsors/sotm.jpg'
+
+
+- type: 'max-height: 100px;'
+  subcategories:
+    - name: IRD
+      link: "https://en.ird.fr/"
+      logo: 'img/sponsors/ird.png'
+
+    - name: Université Gustave Eiffel
+      link: "https://www.univ-gustave-eiffel.fr/"
+      logo: 'img/sponsors/UNIVf.png'
+
+    - name: Université Bordeaux Montagne
+      link: "https://www.u-bordeaux-montaigne.fr/"
+      logo: 'img/sponsors/BOR.png'
+
+

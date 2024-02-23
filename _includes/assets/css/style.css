@@ -171,6 +171,29 @@ p {
   color: #fff;
 }
 
+.organisateurs-row {
+  align-items: center !important;
+  border-radius: 10px;
+  border: 1px solid #719961;
+}
+
+.organisateurs-row .organisateurs-green {
+  height: 390px;
+  text-align: -webkit-center;
+  background: url(/assets/images/landing-background.png), linear-gradient(to right, rgb(29 103 88 / 79%) 0%, rgb(29 108 93) 100%);
+  border-radius: 10px;
+  align-items: center !important;
+  color: #ffffff;
+}
+
+.organisateurs-green h3{
+  color: #ffffff;
+}
+
+.organisateurs-green .center {
+  color: #ffffff;
+}
+
 /*===== All Section Title Style =====*/
 .section-title .title {
   font-size: 40px;
@@ -472,11 +495,11 @@ p {
   }
 }
 
-.center-item{
+.center-item {
   align-items: center;
   justify-content: center;
 }
-  
+
 /*===== Navbar =====*/
 .navbar-area {
   /*padding: 10px 0;*/
@@ -655,12 +678,12 @@ p {
     /*top: 7px;*/
   }
 
-  .logo-osm-text{
-    max-height: 130px!important;
+  .logo-osm-text {
+    max-height: 130px !important;
   }
 
-  .logo-sotm-header{
-    max-height: 130px!important;
+  .logo-sotm-header {
+    max-height: 130px !important;
   }
 }
 
@@ -670,12 +693,13 @@ p {
     right: 60px;
     /*top: 7px;*/
   }
-  .logo-osm-text{
-    max-height: 80px!important;
+
+  .logo-osm-text {
+    max-height: 80px !important;
   }
 
-  .logo-sotm-header{
-    max-height: 80px!important;
+  .logo-sotm-header {
+    max-height: 80px !important;
   }
 }
 
@@ -723,9 +747,9 @@ p {
   background: linear-gradient(to bottom, rgb(255 255 255 / 59%) 0%, rgb(91 140 74 / 9%) 100%);
 }
 
-.header-content strong{
+.header-content strong {
   font-weight: 600;
-    color: #6f9961;
+  color: #6f9961;
 }
 
 .header-countdown .single-count-content {
