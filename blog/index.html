@@ -9,7 +9,7 @@ title: "Blog"
 <section class="detail_blog">
   {% for post in site.posts %}
     <article class="post">
-      <div class="absolute-bg row" style="background-image: url('{{ post.image }}');">
+      <div class="absolute-bg row" style="background-image: url('{{ post.image | prepend: site.baseurl }}');">
         <!-- Contenu de l'image -->
       </div>
       
@@ -32,16 +32,16 @@ title: "Blog"
               <p>Partager</p>
               <div class="col-12">
                 <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.baseurl }}{{ post.url }}" target="_blank" class="share-icon">
-                  <img src="/assets/images/icons/facebook.png" alt="Facebook">
+                  <img src="{{ "/assets/images/icons/facebook.png" | prepend: site.baseurl }}" alt="Facebook">
                 </a>
                 <a href="https://twitter.com/intent/tweet?url={{ site.baseurl }}{{ post.url }}" target="_blank" class="share-icon">
-                  <img src="/assets/images/icons/twitter.png" alt="Twitter">
+                  <img src="{{ "/assets/images/icons/twitter.png" | prepend: site.baseurl }}" alt="Twitter">
                 </a>
                 <a href="https://www.linkedin.com/shareArticle?url={{ site.baseurl }}{{ post.url }}" target="_blank" class="share-icon">
-                  <img src="/assets/images/icons/linkedin.png" alt="LinkedIn">
+                  <img src="{{ "/assets/images/icons/linkedin.png" | prepend: site.baseurl }}" alt="LinkedIn">
                 </a>
                 <a href="https://api.whatsapp.com/send?text={{ site.baseurl }}{{ post.url }}" target="_blank" class="share-icon">
-                  <img src="/assets/images/icons/whatsapp.png" alt="WhatsApp">
+                  <img src="{{ "/assets/images/icons/whatsapp.png" | prepend: site.baseurl }}" alt="WhatsApp">
                 </a>
                 <!-- Ajoutez d'autres icônes au besoin -->
               </div>

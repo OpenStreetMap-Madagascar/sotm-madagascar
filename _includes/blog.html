@@ -8,10 +8,10 @@
   </div> 
   <div class="container_blog">
     {% for post in site.data.blog %}
-  <a href="{{post.url}}">
+  <a href="{{post.url | prepend: site.baseurl }}">
     <div class="card">
       <div class="card__header">
-        <img src="{{ post.image }}" alt="card__image" class="card__image" width="600">
+        <img src="{{ post.image  | prepend: site.baseurl }}" alt="card__image" class="card__image" width="600">
       </div>
       <div class="card__body">
         <h4>{{ post.title }}</h4>
@@ -19,7 +19,7 @@
       </div>
       <div class="card__footer">
         <div class="user">
-          <img src="{{post.img}}" alt="" class="user__image">
+          <img src="{{post.img | prepend: site.baseurl }}" alt="" class="user__image">
           <div class="user__info">
           <h5>{{ post.auteur }}</h5></a>
             <small>{{ post.date | date: "%b %d, %Y" }}</small>

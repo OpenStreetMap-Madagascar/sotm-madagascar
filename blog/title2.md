@@ -12,7 +12,7 @@ title: "Prochain rendez-vous avec la communauté"
 {% for post in site.data.blog %}
   {% if post.title == current %}
     <article class="post">
-      <div class="absolute-bg row" style="background-image: url('{{ post.image }}');">
+      <div class="absolute-bg row" style="background-image: url('{{ site.baseurl }}{{ post.image }}');">
         <!-- Contenu de l'image -->
       </div>
       <div class="post__container">
@@ -22,7 +22,7 @@ title: "Prochain rendez-vous avec la communauté"
           <h5>{{ post.auteur }}</h5>
           <small>{{ post.date | date: "%b %d, %Y" }}</small>
         </div>
-        <img src="{{post.img}}" alt="" class="user__image">
+        <img src="{{ site.baseurl }}{{post.img}}" alt="" class="user__image">
       </div>
     </div>
         <span class="post__category">{{ post.category }}</span>
