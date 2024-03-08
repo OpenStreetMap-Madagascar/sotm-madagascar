@@ -8,7 +8,7 @@
   </div> 
   <div class="container_blog">
     {% for post in site.data.blog %}
-  <a href="{{post.url | prepend: site.baseurl }}">
+  <a href="{{post.url }}">
     <div class="card">
       <div class="card__header">
         <img src="{{ post.image  | prepend: site.baseurl }}" alt="card__image" class="card__image" width="600">
