@@ -1,0 +1,34 @@
+<div id="blog">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="section-title text-center pb-50">
+        <h2 class="title">BLog</h2>
+      </div>
+    </div>
+  </div> 
+  <div class="container_blog">
+    {% for post in site.data.blog %}
+  <a href="{{post.url}}">
+    <div class="card">
+      <div class="card__header">
+        <img src="{{ post.image }}" alt="card__image" class="card__image" width="600">
+      </div>
+      <div class="card__body">
+        <h4>{{ post.title }}</h4>
+        <p>{{ post.content }}</p>
+      </div>
+      <div class="card__footer">
+        <div class="user">
+          <img src="{{post.img}}" alt="" class="user__image">
+          <div class="user__info">
+          <h5>{{ post.auteur }}</h5></a>
+            <small>{{ post.date | date: "%b %d, %Y" }}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    </a>
+  {% endfor %}
+  </div>
+
+</div>

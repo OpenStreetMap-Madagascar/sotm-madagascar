@@ -1,0 +1,44 @@
+
+- title: "Prochain rendez-vous avec la communauté"
+  image: "/assets/images/streap.jpg"
+  auteur: "OpenStreetMap à Madagascar"
+  img: "/assets/images/logo/logo-osm.png"
+  date: "29-30 Avril"
+  content: "Le premier State of the Map, rencontres OpenStreetMap à Madagascar, co-organisé par OpenStreetMap Madagascar, Madatlas et l'université de Fianarantsoa, se tiendra au campus universitaire d'Andrainjato les 29 et 30 avril."
+  content1: " Nous souhaitons connaître vos expériences en ce qui concerne l'utilisation d'OpenStreetMap.
+Veuillez suivre le lien suivant"
+  url1: "https://t.ly/D67A5"
+  content2: "Pour proposer une présentation. Vous avez jusqu'au 10 mars.
+Nous sommes impatients de vous rencontrer"
+  url: "blog/title2/"
+
+- title: "SOTM 2019 Heidelberg"
+  image: "/assets/images/open.jpg"
+  image2: "/assets/images/open2.jpg"
+  img: "/assets/images/Faneva.jpg"
+  auteur: "Fanevanjanahary"
+  soustitre: "OSMF Support"
+  soustitre1: "New knowledge acquired"
+  date: "2 October 2019"
+  content: "This year I was privileged to attend my first SOTM global in Heidelberg Germany. I was granted a scholarship to attend the conference that helped me to be able to travel from Madagascar to Germany."
+  content1: "Before, I had attended State of the Map Africa in Kampala Uganda in 2017. It was the first international conference I have assisted. SOTM Africa had allowed me to meet new people and create a network. So I was very excited to attend SOTM 2019."
+  content2: "I would like to say thanks to all SOTM organizers for their work. Then Dorothea Kazazi for her accompaniment during the travel preparation. She did awesome work for all of us to make sure that we got visas, the accommodation, the flights and the train tickets.
+The travel guide was so helpful to travel from Frankfurt to Heidelberg."
+  content3: "The scholarship provided us an entry not only at SOTM but at HOT summit also. The 5 days of the workshop and conference were all interesting. It almost became a challenge for me to decide which one I’m going to.
+  There are some sessions that I attended and I would like to share:"
+  liste1: "- Hands On Experience Extracting Meaningful OSM Data by Using Amazon Athena with AWS Public Datasets, you can see "
+  liste2: "- Using Machine Learning to Improve Humanitarian Action, "
+  liste3: "- Spatial Indexes for OSM in PostGIS, " 
+  liste4: "- The Academic and Mapping Communities in OSM, " 
+  liste5: "- Share Edits and Insights with the Overpass Tools, "
+  content4: " I also learned about OSM activity around the world during the “Scholar Lightning Talks” and the “Bilingual Breakout Session” in which I had an opportunity to present OSM Madagascar."
+  url: "blog/blog_detail/"
+
+- title: "What's new in 2022 Tech3"
+  image: "/img/bios/Marco.jpg"
+  img: "/img/bios/Marco.jpg"
+  auteur: "Marco"
+  date: "Yesterday"
+  content: "Description , blog description, blog description, blog description."
+  url: "blog/title3/"
+
