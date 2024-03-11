@@ -11,6 +11,15 @@ title: "What's new in 2022 Tech3"
 {% assign current = page.title %}
 {% for post in site.data.blog %}
   {% if post.title == current %}
+  <div class="footer-contact mt-40">
+                              <h5 class="f-title">Partager le blog</h5>
+                              <ul class="social">
+                                  <li><a class=" wow fadeInUp" data-wow-duration="1s" target="_blank" href="https://api.whatsapp.com/send?text={{ site.baseurl }}{{ post.url }}"><i class="lni lni-whatsapp"></i></a></li>
+                                  <li><a class=" wow fadeInUp" data-wow-duration="1s" target="_blank" href="https://www.linkedin.com/shareArticle?url={{ site.baseurl }}{{ post.url }}"><i class="lni lni-linkedin"></i></a></li>
+                                  <li><a class=" wow fadeInUp" data-wow-duration="1.5s" href="https://twitter.com/intent/tweet?url={{ site.baseurl }}{{ post.url }}"><i class="lni lni-twitter"></i></a></li>
+                                  <li><a class=" wow fadeInUp" data-wow-duration="2s" href="https://www.facebook.com/sharer/sharer.php?u={{ site.baseurl }}{{ post.url }}"><i class="lni lni-facebook"></i></a></li>
+                              </ul>
+                          </div>
     <article class="post">
       <div class="absolute-bg row" style="background-image: url('{{ site.baseurl }}{{ post.image }}');">
         <!-- Contenu de l'image -->

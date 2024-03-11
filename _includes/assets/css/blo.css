@@ -9,16 +9,15 @@
  */
  .detail_blog, .detail_blog:before, .detail_blog:after {
   box-sizing: border-box;
-  border-left: 1px solid #6f9961;
-  border-radius: 5px;
-  padding: 20px;
-  padding-bottom: 120px;
-  /* flex-direction: column; */
-  width: 100%;
-  height: 100%;
-  /* position: fixed; */
+  /* border-left: 1px solid #6f9961; */
+  justify-content: center;
+  /* border-radius: 5px; */
+  width: 80%; /* Réduisez la largeur à 50% */
+  margin: 0 auto; /* Ajoutez cette ligne pour centrer horizontalement */
+  height: auto;
   overflow: visible;
 }
+
 .article1 {
   margin: 20px;
 }
@@ -40,8 +39,8 @@
 .post__content header h1 {
   margin-top: 0;
   margin-bottom: 0.25em;
-  font-size: 4em;
-  font-weight: 900;
+  /* font-size: 4em; */
+  font-weight: 400;
   line-height: 0.9;
 }
 
@@ -66,73 +65,16 @@
   background-color: #a9b1b3;
 }
 
-/* figure {
-  margin: 0;
-}
- */
-/**
- * Text Selection
- */
-/* ::selection {
-  color: #fff;
-  background-color: #d0f2ee;
-  text-shadow: none;
-} */
-
-/**
- * .detail_blog
- */
-/* .detail_blog {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 100%;
-  line-height: 1.6;
-  color: #000;
-  background-color: #fff;
-}
- */
-@media (min-width: 20em) {
-  .detail_blog {
-    font-size: 102.5%;
-  }
-}
-
-@media (min-width: 30em) {
-  .detail_blog {
-    font-size: 105%;
-  }
-}
-
-@media (min-width: 54em) {
-  .detail_blog {
-    font-size: 107.5%;
-  }
-}
-
-@media (min-width: 64em) {
-  .detail_blog {
-    font-size: 110%;
-  }
-}
-
-@media (min-width: 76.5em) {
-  .detail_blog {
-    font-size: 115%;
-  }
-}
-
-@media (min-width: 114em) {
-  .detail_blog {
-    font-size: 125%;
-  }
-}
-
 /**
  * Components
  */
 .post {
-  min-height: 100vh;
-  max-width: 90%;
-  border: 0.5em solid #fff;
+  /* min-height: 100vh; */
+  /* max-width: 50%; */
+  margin-block: 2rem;
+  max-width: 1200px;
+  justify-content: center;
+  /* border: 0.5em solid #211d1d; */
 }
 
 @media (min-width: 54em) {
@@ -148,6 +90,23 @@
   height: 14em;
   background-color: #fff;
 }
+.post2 {
+  display: flex;
+  align-items: center; /* Centrer verticalement */
+  justify-content: center; /* Centrer horizontalement */
+  height: 20em;
+  margin-left: 50px;
+  margin: 20px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.post2 > *:first-child {
+  position: relative;
+  width: 100%; /* Utilisez 100% pour remplir la largeur de .post2 */
+}
+
+
 
 @media (min-width: 30em) {
   .post > *:first-child {
@@ -158,7 +117,7 @@
 @media (min-width: 54em) {
   .post > *:first-child {
     flex-basis: 50%;
-    max-width: 50%;
+    max-width:50%;
     height: auto;
   }
 }
