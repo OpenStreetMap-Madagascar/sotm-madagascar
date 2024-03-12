@@ -2,7 +2,7 @@
 title: State of the Map Madagasikara 2024
 email: sotm.mg@gmail.com
 description: "State of the Map Madagasikara est la première rencontre nationale OpenstreetMap . Cet évènement vise à regrouper pendant 2 jours, les 29 et 30 avril les contributrices et contributeurs, utilisateurs, représentants de collectivités, d'entreprises, chercheurs mais aussi toute personne curieuse de découvrir cette « carte libre du monde » que représente OpenStreetMap."
-url: "https://sotm2024.openstreetmap.mg/" # the base hostname & protocol for your site
+url: "https://sotm2024.openstreetmap.mg" # the base hostname & protocol for your site
 twitter_username: state
 github_username:  jekyll
 
