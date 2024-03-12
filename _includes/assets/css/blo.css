@@ -35,6 +35,10 @@
   text-align: center;
   line-height: 100px;
 }
+.post,
+.post * {
+  line-height: 1.5;
+}
 
 .post__content header h1 {
   margin-top: 0;
@@ -68,8 +72,9 @@
 /**
  * Components
  */
+ 
 .post {
-  /* min-height: 100vh; */
+  /* height: 120vh; */
   /* max-width: 50%; */
   margin-block: 2rem;
   max-width: 1200px;
@@ -80,8 +85,9 @@
 @media (min-width: 54em) {
   .post {
     display: flex;
-    height: 100vh;
-    min-height: 40em;
+
+    /* height: 100vh; */
+    /* min-height: 40em; */
   }
 }
 
@@ -89,6 +95,7 @@
   position: relative;
   height: 14em;
   background-color: #fff;
+  
 }
 .post2 {
   display: flex;
@@ -248,7 +255,10 @@
   animation: fade-in 0.8s ease-in-out both 1s;
   border-radius: 20px;
 }
-
+.post3{
+  padding-bottom: 30px;
+  line-height: 1.5;
+}
 .share-icon {
   color: #fff;
   border-radius: 50%;

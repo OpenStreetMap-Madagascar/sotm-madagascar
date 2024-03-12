@@ -1,7 +1,7 @@
 ---
 layout: default
 titlecontent: "Blog"
-title: "What's new in 2022 Tech3"
+title: "L'expérience de mon passage au Cameroun, Yaoundé Au State of Map2023"
 
 ---
 
@@ -42,11 +42,16 @@ title: "What's new in 2022 Tech3"
             <h1 class="post__header">{{ post.title }}</h1>
           </header>
           <p class="post__text">{{ post.content | markdownify }}</p>
-          <p class="post__text">{{ post.content1 | markdownify }} <a href="{{post.url1}}">{{post.url1}}</a> </p>
-          <p class="post__text">{{ post.content2 | markdownify }}</p>
         </div>
-      </div>
+  </div>
     </article>
+  <article class="post3">
+  <p class="post__text">{{ post.content1 | markdownify }}</p>
+  <p class="post__text">{{ post.content2 | markdownify }}</p>
+  <p class="post__text">{{ post.content3 | markdownify }}</p>
+  <p class="post__text">{{ post.content4 | markdownify }}</p>
+  <p class="post__text">{{ post.content5 | markdownify }}</p>
+  </article>
   {% endif %}
 {% endfor %}
 </div>
