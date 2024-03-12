@@ -118,14 +118,15 @@
   .post > *:first-child {
     flex-basis: 50%;
     max-width:50%;
-    height: auto;
+    /*height: auto;*/
+    background-size: contain;
   }
 }
 
 @media (min-width: 76.5em) {
   .post > *:first-child {
-    flex-basis: 60%;
-    max-width: 60%;
+    flex-basis: 40%;
+    max-width: 40%;
   }
 }
 
@@ -138,8 +139,8 @@
 
 @media (min-width: 76.5em) {
   .post > *:last-child {
-    flex-basis: 40%;
-    max-width: 40%;
+    flex-basis: 60%;
+    max-width: 60%;
   }
 }
 

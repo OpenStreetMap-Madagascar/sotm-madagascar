@@ -27,7 +27,7 @@ title: "SOTM 2019 Heidelberg"
             <!-- Contenu de l'image -->
           </div>
           <div class="post__container">
-            <div class="card__footer">
+            <div class="">
               <div class="user">
                 <div class="user__info">
                   <h5>{{ post.auteur }}</h5>
