@@ -42,6 +42,11 @@
       name: "Ateliers en parallèle pour débutants ou pour se perfectionner, autour des éditeurs OpenStreetMap comme JOSM, OSMAnd
 Usage de Qgis et des données OSM Usages avancés de données OSM"
       description: 
+    - start: '12:30'
+      end: '13:00'
+      event: event-4
+      name: "Repas"
+      description: ''
     - start: '14:30'
       end: '16:00'
       event: event-1
