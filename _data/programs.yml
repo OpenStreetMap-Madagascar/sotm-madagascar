@@ -1,3 +1,4 @@
+#     description: /sessions/UWHAME
 - day: Lundi
   subcategories:
     - start: '08:30'
@@ -35,23 +36,19 @@
 
 - day: Mardi
   subcategories:
-    # - start: '10:00'
-    #   end: '11:00'
-    #   event: event-2
-    #   name: "Rowing Workout"
-    #   description: 
-    # - start: '11:30'
-    #   end: '13:00'
-    #   event: event-4
-    #   name: "Restorative Yoga"
-    #   description: 
-    # - start: '13:30'
-    #   end: '15:00'
-    #   event: event-1
-    #   name: "Abs Circuit 2"
-    #   description: 
-    # - start: '15:45'
-    #   end: '16:45'
-    #   event: event-3
-    #   name: "Yoga Level 1"
-    #   description: 
+    - start: '08:30'
+      end: '12:00'
+      event: event-2
+      name: "Ateliers en parallèle pour débutants ou pour se perfectionner, autour des éditeurs OpenStreetMap comme JOSM, OSMAnd
+Usage de Qgis et des données OSM Usages avancés de données OSM"
+      description: 
+    - start: '14:30'
+      end: '16:00'
+      event: event-1
+      name: "OSM Africa Monthly Mapathon (région Itasy)"
+      description: 
+    - start: '16:00'
+      end: '17:00'
+      event: event-3
+      name: "Conférence clôture du SotM-MG"
+      description: 
