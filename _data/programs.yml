@@ -1,12 +1,12 @@
 #     description: /sessions/UWHAME
 - day: Lundi
   subcategories:
-    - start: '08:15'
-      end: '08:45'
-      event: Opening Session
+    - start: '08:30'
+      end: '09:00'
+      event: event-3
       name: "Accueil"
       description: ''
-    - start: '08:45'
+    - start: '09:00'
       end: '10:00'
       event: event-2
       name: "Ouverture Officielle du premier State of the Map Madagasikara"
@@ -49,6 +49,6 @@ Usage de Qgis et des données OSM Usages avancés de données OSM"
       description: 
     - start: '16:00'
       end: '17:00'
-      event: event-1
+      event: event-3
       name: "Conférence clôture du SotM-MG"
       description: 
