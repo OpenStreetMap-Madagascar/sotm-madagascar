@@ -1,50 +1,59 @@
+#     description: /sessions/UWHAME
 - day: Lundi
-  # subcategories:
-  #   - start: '10:00'
-  #     end: '10:30'
-  #     event: Opening Session
-  #     name: "Abs Circui"
-  #     description: ''
-  #   - start: '10:30'
-  #     end: '11:00'
-  #     event: event-2
-  #     name: "State of Independence"
-  #     description: /sessions/QFUTA7
-  #   - start: '11:30'
-  #     end: '12:00'
-  #     event: event-2
-  #     name: "10 Years Of MapRoulette"
-  #     description: /sessions/RRUH8S
-  #   - start: '12:00'
-  #     end: '12:30'
-  #     event: event-2
-  #     name: "Entry-level Mobile Mapping"
-  #     description: /sessions/UWHAME
-  #   - start: '12:30'
-  #     end: '13:00'
-  #     event: event-2
-  #     name: "Admin Boundary Conflation Tool"
-  #     description: /sessions/HGFY7Z
+  subcategories:
+    - start: '08:30'
+      end: '09:00'
+      event: event-3
+      name: "Accueil"
+      description: ''
+    - start: '09:00'
+      end: '10:00'
+      event: event-2
+      name: "Ouverture Officielle du premier State of the Map Madagasikara"
+      description: ''
+    - start: '10:00'
+      end: '11:00'
+      event: event-2
+      name: "Présentation de l’Association OpenStreetMap Madagascar"
+      description: ''
+    - start: '11:00'
+      end: '12:00'
+      event: event-2
+      name: "Conférences, retours d’expériences à Madagascar"
+      description: ''
+    - start: '12:30'
+      end: '13:00'
+      event: event-4
+      name: "Repas"
+      description: ''
+    - start: '14:30'
+      end: '17:00'
+      event: event-2
+      name: "Conférences et retours d’expériences sur :
+                  - la cartographie de crise, la cartopartie locale
+                  - l’usage des données pour des applications thématiques"
+      description: ''
 
 - day: Mardi
   subcategories:
-    # - start: '10:00'
-    #   end: '11:00'
-    #   event: event-2
-    #   name: "Rowing Workout"
-    #   description: 
-    # - start: '11:30'
-    #   end: '13:00'
-    #   event: event-4
-    #   name: "Restorative Yoga"
-    #   description: 
-    # - start: '13:30'
-    #   end: '15:00'
-    #   event: event-1
-    #   name: "Abs Circuit 2"
-    #   description: 
-    # - start: '15:45'
-    #   end: '16:45'
-    #   event: event-3
-    #   name: "Yoga Level 1"
-    #   description: 
+    - start: '08:30'
+      end: '12:00'
+      event: event-2
+      name: "Ateliers en parallèle pour débutants ou pour se perfectionner, autour des éditeurs OpenStreetMap comme JOSM, OSMAnd
+Usage de Qgis et des données OSM Usages avancés de données OSM"
+      description: 
+    - start: '12:30'
+      end: '13:00'
+      event: event-4
+      name: "Repas"
+      description: ''
+    - start: '14:30'
+      end: '16:00'
+      event: event-1
+      name: "OSM Africa Monthly Mapathon (région Itasy)"
+      description: 
+    - start: '16:00'
+      end: '17:00'
+      event: event-3
+      name: "Conférence clôture du SotM-MG"
+      description: 
