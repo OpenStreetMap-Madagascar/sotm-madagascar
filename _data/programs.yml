@@ -1,7 +1,7 @@
 #     description: /sessions/UWHAME
 - day: Lundi
   subcategories:
-    - start: '08:30'
+    - start: '08:15'
       end: '08:45'
       event: Opening Session
       name: "Accueil"
