@@ -37,10 +37,16 @@
 - day: Mardi
   subcategories:
     - start: '08:30'
+      end: '11:00'
+      event: event-2
+      name: "Ateliers en parallèle pour débutants ou pour se perfectionner, autour des éditeurs OpenStreetMap comme JOSM, OSMAnd <br>
+            - Usage de Qgis et des données OSM <br>
+            - Usages avancés de données OSM"
+      description: 
+    - start: '11:00'
       end: '12:00'
       event: event-2
-      name: "Ateliers en parallèle pour débutants ou pour se perfectionner, autour des éditeurs OpenStreetMap comme JOSM, OSMAnd
-Usage de Qgis et des données OSM Usages avancés de données OSM"
+      name: "OpenStreetMap à Madagascar, des projets et des formations à venir"
       description: 
     - start: '12:30'
       end: '13:00'
