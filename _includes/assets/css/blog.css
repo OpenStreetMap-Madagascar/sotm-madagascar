@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+#blog_comp{
+  font-family: "Quicksand", sans-serif;
+  display: grid;
+  place-items: center;
+  background: #f5f8ff;
+  color: #fff;
+  padding-bottom: 120px;
+
+}
 #blog{
   font-family: "Quicksand", sans-serif;
   display: grid;
@@ -15,6 +24,12 @@
   padding-bottom: 120px;
 
 }
+.button-container {
+  justify-self: end;
+  margin: 10px;
+  margin-right: 200px;
+}
+
 .container_blog {
   display: flex;
   flex-wrap: wrap;
@@ -22,31 +37,33 @@
   max-width: 1200px;
   margin-block: 2rem;
   gap: 2rem;
-  
 }
 
-.container_blog .card {
+.card {
+  width: clamp(35rem, calc(20rem + 2vw), 22rem);
+  height: 650px; /* Ajoutez une hauteur fixe à vos cartes */
   display: flex;
   flex-direction: column;
-  width: clamp(35rem, calc(20rem + 2vw), 22rem);
   overflow: hidden;
   box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 1em;
-  /*background: #ECE9E6;*/
   background-image: linear-gradient(to right, #57824500 0%, #47d2100d 100%);
   border-radius: 20px;
-  transition: transform 0.3s ease-in-out; /* Ajout de la transition */
+  transition: transform 0.3s ease-in-out;
 }
 
-.container_blog .card:hover {
-  transform: scale(1.05); /* Changez la valeur selon vos préférences pour l'effet de zoom */
+.card:hover {
+  transform: scale(1.05);
 }
+.card__header {
+  max-height: 300px; /* Définissez une hauteur maximale pour le conteneur de l'image */
+  overflow: hidden; /* Assurez-vous que le contenu dépassant est masqué */
+}
+
 .card__header img {
-  max-width: 100%;
-  display: block;
-  object-fit: cover;
-  border-bottom-left-radius: 8px; /* Ajoutez la valeur que vous préférez */
-  border-bottom-right-radius: 8px; /* Ajoutez la valeur que vous préférez */
+  width: 100%; /* Assurez-vous que l'image occupe toute la largeur du conteneur */
+  height: auto; /* Laissez la hauteur s'ajuster automatiquement pour préserver les proportions */
+  object-fit: cover; /* Assurez-vous que l'image couvre tout le conteneur sans déformation */
 }
 
 
@@ -64,44 +81,40 @@
   font-size: .75rem;
 }
 
-
-
 .card__body .tag + .tag {
   margin-left: .5em;
 }
 
 .card__body h4 {
-  font-size: 22px ;
+  font-size: 22px;
   text-transform: capitalize;
   text-align: center;
-  /*color: #fff;*/
-
 }
+
 .card__body p {
   font-size: 16px;
-  margin: 0px;  
-  /*color: white;*/
-
+  margin: 0px;
 }
 
-.container_blog small{
+.container_blog small {
   display: inline-block;
-    padding: 0.35em 0.65em;
-    font-size: .75em;
-    font-weight: 700;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: 0.25rem;
-    background-color: #648a57;
+  padding: 0.35em 0.65em;
+  font-size: .75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: #648a57;
 }
 
 .card__footer {
   display: flex;
   padding: 2rem;
   margin-top: auto;
+  padding: auto;
 }
 
 .card__footer .user {
@@ -109,11 +122,6 @@
   gap: .5rem;
 }
 
-.card__footer .user {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .user {
   display: flex;
   align-items: center;
@@ -121,8 +129,8 @@
 
 .user__image {
   border-radius: 50%;
-  width: 40px; /* Adjust the size as needed */
-  height: 40px; /* Adjust the size as needed */
+  width: 40px;
+  height: 40px;
   object-fit: cover;
 }
 
@@ -131,7 +139,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: baseline; /* Center vertically */
+  align-items: baseline;
   margin-left: 10px;
 }
 

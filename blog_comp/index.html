@@ -1,0 +1,35 @@
+---
+layout: default
+title : "Blog"
+title1 : "Découvrez nos derniers articles et actualités dans notre"
+---
+
+{% include nav-head.html %}
+<div id="blog" class="features-area pt-50 pb-50">
+  <div class="container_blog">
+    {% for post in site.data.blog %}
+  <a href="{{ site.baseurl }}/{{ post.url }}">
+    <div class="card">
+      <div class="card__header">
+        <img src="{{ post.image  | prepend: site.baseurl }}" alt="card__image" class="card__image" width="600">
+      </div>
+      <div class="card__body">
+        <h4>{{ post.title }}</h4>
+        <p>{{ post.content }}</p>
+      </div>
+      <div class="card__footer">
+        <div class="user">
+          <img src="{{post.img | prepend: site.baseurl }}" alt="" class="user__image">
+          <div class="user__info">
+          <h5>{{ post.auteur }}</h5></a>
+            <small>{{ post.date | date: "%b %d, %Y" }}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    </a>
+  {% endfor %}
+  </div>
+
+</div>
+  

@@ -1,4 +1,3 @@
-
 <div id="blog" class="features-area pt-115 pb-130">
   <div class="row justify-content-center">
     <div class="col-lg-8">
@@ -8,28 +7,33 @@
     </div>
   </div> 
   <div class="container_blog">
-    {% for post in site.data.blog %}
-  <a href="{{post.url }}">
-    <div class="card">
-      <div class="card__header">
-        <img src="{{ post.image  | prepend: site.baseurl }}" alt="card__image" class="card__image" width="600">
-      </div>
-      <div class="card__body">
-        <h4>{{ post.title }}</h4>
-        <p>{{ post.content }}</p>
-      </div>
-      <div class="card__footer">
-        <div class="user">
-          <img src="{{post.img | prepend: site.baseurl }}" alt="" class="user__image">
-          <div class="user__info">
-          <h5>{{ post.auteur }}</h5></a>
-            <small>{{ post.date | date: "%b %d, %Y" }}</small>
+    {% assign recent_posts = site.data.blog | reverse %}
+    {% for post in recent_posts limit:3 %}
+      <a href="{{ post.url }}">
+        <div class="card">
+          <div class="card__header">
+            <img src="{{ post.image | prepend: site.baseurl }}" alt="card__image" class="card__image" width="600">
+          </div>
+          <div class="card__body">
+            <h4>{{ post.title }}</h4>
+            <p>{{ post.content }}</p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="{{ post.img | prepend: site.baseurl }}" alt="" class="user__image">
+              <div class="user__info">
+                <h5>{{ post.auteur }}</h5>
+                <small>{{ post.date | date: "%b %d, %Y" }}</small>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    </a>
-  {% endfor %}
+      </a>
+    {% endfor %}
   </div>
-
+  {% if site.data.blog.size > 3 %}
+    <div class="button-container">
+      <a class="main-btn" href="{{ site.baseurl }}/blog_comp" rel="nofollow">Voir plus</a>
+    </div>
+  {% endif %}
 </div>

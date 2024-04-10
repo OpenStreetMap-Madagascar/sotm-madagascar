@@ -838,6 +838,7 @@ p {
   color: #1b273d;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
+  margin-top: 22px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -864,7 +865,6 @@ p {
   /*color: #fff;*/
   color: #1b273d;
   text-transform: uppercase;
-  margin-top: 22px;
 }
 
 @media (max-width: 767px) {
