@@ -220,7 +220,7 @@ Main Components
 
   .cd-schedule .timeline li {
     position: relative;
-    height: 50px;
+    height: 60px;
   }
 
   .cd-schedule .timeline li::after {
