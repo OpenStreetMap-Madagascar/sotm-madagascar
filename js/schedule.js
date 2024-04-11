@@ -97,8 +97,8 @@ jQuery(document).ready(function ($) {
 				eventHeight = self.eventSlotHeight * duration / self.timelineUnitDuration;
 
 			$(this).css({
-				top: (eventTop - 1) + 'px',
-				height: (eventHeight + 21) + 'px'
+				top: (eventTop) + 'px',
+				height: (eventHeight + 20) + 'px'
 			});
 		});
 
