@@ -423,8 +423,8 @@ Main Components
 @media only screen and (min-width: 1000px) {
   .cd-schedule .events {
     /* 60px is the .timeline element width */
-    width: calc(100% - 60px);
-    margin-left: 60px;
+    width: calc(100% - 25px);
+    margin-left: 45px;
   }
 }
 
