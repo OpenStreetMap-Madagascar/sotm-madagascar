@@ -8,78 +8,78 @@
       description: ''
     - start: '09:00'
       end: '09:30'
-      event: event-1
+      event: event-2
       name: "Accueil par l’Université de Fianarantsoa et par MadAtlas"
       description: ''
     - start: '09:30'
       end: '10:00'
-      event: event-1
+      event: event-2
       name: "OpenStreetMap Madagascar qui sommes nous ?"
       description: ''
     - start: '10:00'
       end: '10:30'
-      event: event-1
+      event: event-2
       name: "Partage d'expérience, première cellule contributeur OSM de Diégo"
       description: ''
     - start: '10:30'
       end: '11:00'
-      event: event-1
+      event: event-2
       name: "Activité OSM dans la Région Itasy"
       description: ''
     - start: '10:00'
       end: '10:30'
-      event: event-1
+      event: event-2
       name: "Partage d'expérience, première cellule contributeur OSM de Diégo"
       description: ''
     - start: '11:00'
       end: '11:30'
-      event: event-1
+      event: event-2
       name: "Humanitarian OpenStreetMap Team / OpenHub Africa"
       description: ''
     - start: '11:30'
       end: '12:00'
-      event: event-1
+      event: event-2
       name: "Cartographier Madagascar à distance, quels enjeux méthodologiques et éthiques ?"
       description: ''
     - start: '12:00'
       end: '13:30'
-      event: event-2
+      event: event-1
       name: "Repas"
       description: ''
     - start: '13:30'
       end: '14:30'
-      event: event-1
+      event: event-2
       name: "Comment OSM peut contribuer à sauver des vies : outils d'aide à la décision pour guider les programmes de santé communautaire"
       description: ''
     - start: '14:30'
       end: '15:00'
-      event: event-1
+      event: event-2
       name: "Vers une cartographie OSM exhaustive de Madagascar : leçons du projet « Malaria remote populations » et perspectives"
       description: ''
     - start: '15:00'
       end: '15:30'
-      event: event-1
+      event: event-2
       name: "Utilisation de la donnée OpenStreetMap pour la gestion post-catastrophe"
       description: ''
     - start: '15:30'
       end: '16:00'
-      event: event-1
+      event: event-2
       name: "CAMP'S TURN Antoetra MADAGASCAR par Youth Mania Mapping, Youthmappers Chapter IST-A
 Optimisation de la cartographie participative dans les communes d'Ambositra I et Ambositra II grâce à OpenStreetMap"
       description: ''
     - start: '16:00'
       end: '16:30'
-      event: event-1
+      event: event-2
       name: "Le Pouvoir des Données de Transports en Commun"
       description: ''
     - start: '16:30'
       end: '17:00'
-      event: event-1
+      event: event-2
       name: "Deux applications Map-Tsabo et Map-Tsidika"
       description: ''
     - start: '17:00'
       end: '17:30'
-      event: event-1
+      event: event-2
       name: "OpenStreetMap Madagascar et après ?"
       description: ''
 
@@ -87,32 +87,32 @@ Optimisation de la cartographie participative dans les communes d'Ambositra I et
   subcategories:
     - start: '08:30'
       end: '10:30'
-      event: event-1
+      event: event-2
       name: "Formation JOSM / OSMAnd Ateliers débutants ou experts JOSM, OSMAnd, Qgis, Docker, Overpass"
       description: 
     - start: '11:00'
       end: '11:30'
-      event: event-1
+      event: event-2
       name: "Le Tasking Manager HOT : une cartographie OSM à distance dans le cadre de projets humanitaires et de développement."
       description: 
     - start: '11:30'
       end: '12:00'
-      event: event-1
+      event: event-2
       name: "OSM, MadAtlas et l’Université de Fianarantsoa"
       description: 
     - start: '12:00'
       end: '13:30'
-      event: event-2
+      event: event-1
       name: "Repas"
       description: ''
     - start: '13:30'
       end: '14:00'
-      event: event-1
+      event: event-2
       name: "Panorama OpenStreetMap Africa"
       description: 
     - start: '15:00'
       end: '15:30'
-      event: event-1
+      event: event-2
       name: "OSM Africa Monthly Mapathon (région Itasy)"
       description: 
     - start: '16:30'
