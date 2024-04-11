@@ -18,7 +18,7 @@ jQuery(document).ready(function ($) {
 		this.eventsWrapper = this.element.find('.events');
 		this.eventsGroup = this.eventsWrapper.find('.events-group');
 		this.singleEvents = this.eventsGroup.find('.single-event');
-		this.eventSlotHeight = 70;
+		this.eventSlotHeight = this.eventsGroup.eq(0).children('.top-info').outerHeight();
 
 		this.modal = this.element.find('.event-modal');
 		this.modalHeader = this.modal.find('.header');
@@ -42,7 +42,7 @@ jQuery(document).ready(function ($) {
 		var mq = this.mq();
 		if (mq == 'desktop' && !this.element.hasClass('js-full')) {
 			//in this case you are on a desktop version (first load or resize from mobile)
-			this.eventSlotHeight = 70;
+			this.eventSlotHeight = this.eventsGroup.eq(0).children('.top-info').outerHeight();
 			this.element.addClass('js-full');
 			this.placeEvents();
 			this.element.hasClass('modal-is-open') && this.checkEventModal();
