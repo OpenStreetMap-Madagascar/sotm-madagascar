@@ -98,7 +98,7 @@ jQuery(document).ready(function ($) {
 
 			$(this).css({
 				top: (eventTop - 1) + 'px',
-				height: (eventHeight + 1) + 'px'
+				height: (eventHeight + 21) + 'px'
 			});
 		});
 

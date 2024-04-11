@@ -220,7 +220,7 @@ Main Components
 
   .cd-schedule .timeline li {
     position: relative;
-    height: 50px;
+    height: 70px;
   }
 
   .cd-schedule .timeline li::after {
@@ -354,7 +354,7 @@ Main Components
   .cd-schedule .events .top-info {
     /* vertically center its content */
     display: table;
-    height: 50px;
+    height: 70px;
     border-bottom: 1px solid #EAEAEA;
     /* reset style */
     padding: 0;
