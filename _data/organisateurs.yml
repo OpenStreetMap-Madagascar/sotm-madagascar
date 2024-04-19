@@ -28,3 +28,14 @@
       logo: 'img/sponsors/BOR.png'
 
 
+- type: 'max-height: 100px;'
+  subcategories:
+    - name: Humanitarian OpenStreetMap Team
+      link: "https://www.hotosm.org"
+      logo: 'img/sponsors/logo_hot.png'
+    - name: Humanitarian OpenStreetMap Team
+      link: "https://www.hotosm.org"
+      logo: 'img/sponsors/logo_hot.png'
+    - name: Open Mapping Hub
+      link: "https://www.hotosm.org/hubs/"
+      logo: 'img/sponsors/HOT_OMH.png'
